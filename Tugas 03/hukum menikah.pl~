@@ -1,0 +1,7 @@
+menikah(wati, andi).
+anakKandung(wati, budi).
+saudaraKembar(budi, andi).
+
+is_saudaraKandung(X,Y) :-
+is_keponakan(Z, Y) :-
+not(sah(menikah(Z,Y))) :-
