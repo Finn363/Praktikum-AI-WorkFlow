@@ -30,7 +30,7 @@ ibu(X, Y) :-wanita(X), orangtua(X, Y).
 saudara_kandung(X, Y) :-orangtua(Z, Y), orangtua(Z, Y), X \= Y.
 kakek(X, Y) :-pria(X), orangtua(X, Z), orangtua(Z, Y).
 nenek(X, Y) :-wanita(X), orangtua(X, Z), orangtua(Z, Y).
-cucu(X, Y) :-orangtua(Y, z), orangtua(Z, X).
+cucu(X, Y) :-orangtua(Y, Z), orangtua(Z, X).
 
 
 
